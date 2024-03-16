@@ -3,7 +3,7 @@ import { AppBar } from "./AppBar/AppBar";
 import { TaskForm } from "./TaskForm/TaskForm";
 import { TaskList } from "./TaskList/TaskList";
 
-export const App = () => {
+export default function App() {
   return (
     <Layout>
       <AppBar />
@@ -11,4 +11,4 @@ export const App = () => {
       <TaskList />
     </Layout>
   );
-};
+}
